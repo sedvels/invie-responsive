@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?nrth2f');
-  src:  url('../fonts/icomoon.eot?nrth2f#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?nrth2f') format('truetype'),
-    url('../fonts/icomoon.woff?nrth2f') format('woff'),
-    url('../fonts/icomoon.svg?nrth2f#icomoon') format('svg');
+  src:  url('./fonts/icomoon.eot?nrth2f');
+  src:  url('./fonts/icomoon.eot?nrth2f#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf?nrth2f') format('truetype'),
+    url('./fonts/icomoon.woff?nrth2f') format('woff'),
+    url('./fonts/icomoon.svg?nrth2f#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,6 +36,13 @@
 .icon-close:before {
   content: "\ea0d";
 }
+
+* {
+	/*border: 2px solid red;
+	margin: 10px;
+	padding: 10px;*/
+}
+
 
 body {
 	font-family: 'Allerta', sans-serif;
@@ -89,9 +96,12 @@ input:focus, textarea:focus {
 }
 
 .background {
-	background-image: url("../images/background.png");
+	background-image: url("./images/background2x.png");
 	background-size: cover;
 }
+/*.portada .contenedor {
+	height: 500px;
+}*/
 
 .button {
 	border: none;
@@ -110,6 +120,7 @@ input:focus, textarea:focus {
 	font-size: 70px;
 	margin-bottom: 0;
 	margin-top: 70px;
+	/*line-height: 40px;*/
 }
 
 .titulo span {
@@ -536,6 +547,17 @@ video {
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
 	.background {
 		background-color: #395667;
-		background-image: url("../images/background2x.png");
+		background-image: url("./images/background2x.png");
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
